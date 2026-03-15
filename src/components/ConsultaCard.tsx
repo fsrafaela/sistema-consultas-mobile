@@ -1,6 +1,7 @@
 import React from "react";
-import { View, Text, StyleSheet, Button } from "react-native";
+import { View, Text, Button } from "react-native";
 import { Consulta } from "../interfaces/consulta";
+import { styles } from "../styles/consultaCard.styles";
 
 type ConsultaCardProps = {
   consulta: Consulta;
